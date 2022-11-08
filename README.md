@@ -34,7 +34,8 @@ This app gonna works as a back end ecommerce with products, categories and tags 
 # 🤹‍♀️ This is a how to for the project :-) <a name="howto"></a>
 -----------------------------------------
 ###      ->  
-            Install npm dependencies, create an .env file with your information so the app can connect; once you have this  type npm run seed, and start the app with npm start :)
+            Install npm dependencies, create an .env file with your information so the app can connect;
+            once you have this  type npm run seed, and start the app with npm start :)
             
             Follow the videos for more information
             https://drive.google.com/file/d/1ihLeROn8vBvqjg1Nce6oNxIEyVxYrWJ2/view?usp=share_link
