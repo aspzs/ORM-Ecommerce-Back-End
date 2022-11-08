@@ -14,7 +14,7 @@ router.get('/', (req, res) => {
   })
   .then(tagData => res.json(tagData))
   .catch(err => {
-    console.log(err);
+    console.log(err)
     res.status(400).json(err)
   });
 });
@@ -33,7 +33,7 @@ router.get('/:id', (req, res) => {
   })
   .then(tagData => res.json(tagData))
   .catch(err => {
-    console.log(err);
+    console.log(err)
     res.status(400).json(err)
   });
 });
@@ -45,7 +45,7 @@ router.post('/', (req, res) => {
   })
   .then(tagData => res.json(tagData))
   .catch(err => {
-    console.log(err);
+    console.log(err)
     res.status(400).json(err)
   });
 });
@@ -72,7 +72,7 @@ router.put('/:id', (req, res) => {
 
 router.delete('/:id', (req, res) => {
   // delete on tag by its `id` value
-  Tag.destroy(req, body, {
+  Tag.destroy({
     where: {
       id: req.params.id
     }
